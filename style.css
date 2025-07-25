@@ -227,31 +227,36 @@ body.dark-theme .theme-toggle {
   .logo {
     flex: 1;
   }
-}
-#skills ul{
-  display: flex;
-  text-decoration: none;
   
 }
+@media (max-width: 600px) {
+  .allskils {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 #skills h1{
 display: flex;
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  margin-top: 50px;
+  margin: 6vh;
 }
-.allskils{
+.allskils {
   display: grid;
+  grid-template-columns: repeat(4,0fr);
+  /* grid-template-rows: repeat(4,1fr); */
+   padding: 20px;
+  margin: 0 5vw;
+  gap: 40px;
+  align-items: center;
   justify-content: center;
-  
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 100px 100px;
-  grid-gap: 20px 20px;
-
+  /* padding: 20px; */
 }
-.html{
-  height: 100px;
-  width: 100px;
+
+.logos{
+  height: 200px;
+  width: 200px;
   border: 2px solid black;
   border-radius: 15%;
 }
