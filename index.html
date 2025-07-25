@@ -10,11 +10,12 @@
 <body>
   <nav class="navbar">
   <div class="logo">KANHAIYA KUMAR
-    <button class="nightmode">Click!</button>
+    <!-- <button class="nightmode">Click!</button> -->
   </div>
 
   <!-- Hamburger icon -->
   <div class="hamburger" id="hamburger">
+    <button class="ok"></button>
     &#9776;
   </div>
 
@@ -24,7 +25,8 @@
     <li><a href="#skills">SKILLS</a></li>
     <li><a href="#project">PROJECT</a></li>
     <li><a href="#certificate">CERTIFICATE</a></li>
-    <li><a href="#">CONTACT US</a></li>
+    <li><a href="#contactus">CONTACT US</a></li>
+    <li><a href="#contactus">HIRE ME</a></li>
   </ul>
 </nav>
 
@@ -196,9 +198,44 @@
   </div>
 
 </section>
-<section id="contactus">
-  <h1>GET IN TOUCH </h1>
+<section id="contactus" class="contact-section">
+  <h2>Get In Touch</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <p>Feel free to reach out to me for any inquiries or opportunities.</p>
+      <div class="info-item">
+        <i class="fa-solid fa-phone"></i> +91 8178988008
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-envelope"></i> kanhaiyakumarmailme@gmail.com
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/kumar-kanhaiya" target="_blank"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/kanhaiya-kumar-6560a833a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" />
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Your message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
 </section>
+<footer id="last">
+  <p>© 2025 KANHAIYA KUMAR. All rights reserved.</p>
+</footer>
+
 
   <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/64bc9547f7.js" crossorigin="anonymous"></script>

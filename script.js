@@ -3,7 +3,7 @@
 //     }
 
 let body = document.querySelector("body");
-let button = document.querySelector(".nightmode");
+let button = document.querySelector(".ok");
 let navbar = document.querySelector(".navbar");
 
 button.addEventListener("click", () => {

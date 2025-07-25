@@ -387,4 +387,157 @@ display: flex;
   border-radius: 10px;
   transition: transform 0.5s ease;
 }
-.
+/* #contactus h1{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6vh;
+}
+.contactus{
+  
+  justify-content: center; */
+  /* height: 50vh;
+  width: 60vw;
+  border: 2px solid black ;
+  margin: 50%;
+
+} */
+/* FontAwesome CDN (add in <head>) */
+.social i{
+  transition: tranform 0.5s ease;
+}
+.social:hover a i{
+  transform: scale(1.2);
+}
+
+
+.contact-section {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background: #2563eb;
+  color: #fff;
+  padding: 30px;
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.social-icons i {
+  margin-right: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+}
+
+/* Right Form Panel */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+  background: #f9fafb;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: none;
+}
+
+.contact-form button {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #1e40af;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form {
+    width: 100%;
+  }
+
+  .contact-section h2 {
+    font-size: 1.6rem;
+  }
+}
+#last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 10px;
+}
