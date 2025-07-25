@@ -284,3 +284,16 @@ display: flex;
   margin-left: 20px;
 
 }
+#project h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 6vh;
+}
+.inner{
+  border: 2px solid black;
+  height: 60%;
+  margin-top: 0%;
+  width: 80%;
+}
