@@ -16,7 +16,7 @@ After weeks of designing, coding, and tweaking, my portfolio is finally live —
 ✔️ Contact form  
 ✔️ Dark/Light mode toggle
 
-💻 Check it out here:https://kumar-kanhaiya.github.io/Portfolio/
+💻 Check it out here:https://kumar-kanhaiya.github.io/Portfolio/](https://portfolio-sua7.vercel.app/
 🔗 GitHub Repo: https://github.com/kumar-kanhaiya/Portfolio.git
 
 Would love to hear your feedback or suggestions!
