@@ -6,19 +6,19 @@ let body = document.querySelector("body");
 let button = document.querySelector(".ok");
 let navbar = document.querySelector(".navbar");
 
-button.addEventListener("click", () => {
-  if (body.style.backgroundColor === "white" || body.style.backgroundColor === "") {
-    body.style.backgroundColor = "#555";
-    body.style.color = "white";
-    navbar.style.backgroundColor = "#555";
-    navbar.style.color = "white";
-  } else {
-    body.style.backgroundColor = "white";
-    body.style.color = "black";
-    navbar.style.backgroundColor = "white";
-    navbar.style.color = "black";
-  }
-});
+// button.addEventListener("click", () => {
+//   if (body.style.backgroundColor === "white" || body.style.backgroundColor === "") {
+//     body.style.backgroundColor = "#555";
+//     body.style.color = "white";
+//     navbar.style.backgroundColor = "#555";
+//     navbar.style.color = "white";
+//   } else {
+//     body.style.backgroundColor = "white";
+//     body.style.color = "black";
+//     navbar.style.backgroundColor = "white";
+//     navbar.style.color = "black";
+//   }
+// });
 
 var typed = new Typed(".typed-text", {
   strings: ["A Frontend Developer", "A Backend Developer", "A Android Developer" , "A DSA Enthusiast"],
