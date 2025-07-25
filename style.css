@@ -229,11 +229,7 @@ body.dark-theme .theme-toggle {
   }
   
 }
-@media (max-width: 600px) {
-  .allskils {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+
 
 #skills h1{
 display: flex;
@@ -244,19 +240,42 @@ display: flex;
 }
 .allskils {
   display: grid;
-  grid-template-columns: repeat(4,0fr);
-  /* grid-template-rows: repeat(4,1fr); */
-   padding: 20px;
-  margin: 0 5vw;
-  gap: 40px;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;                               
+  justify-content: center;                
   align-items: center;
-  justify-content: center;
-  /* padding: 20px; */
+  padding: 20px;
+  max-width: 900px;                        
+  margin: auto;                            
+}
+
+
+@media (max-width: 600px) {
+  .allskils {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 90vw;
+    margin: 0 3vw;
+  }
 }
 
 .logos{
   height: 200px;
   width: 200px;
-  border: 2px solid black;
+  border: 2px solid black; 
   border-radius: 15%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.insidelogo{
+  height: 100px;
+  width: 100px;
+  /* border: 2px solid black; */
+  border-radius: 0%;
+  font-size: 110px;
+  margin-top: -30px;
+  margin-left: 20px;
+
 }
