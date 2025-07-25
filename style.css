@@ -147,7 +147,7 @@ body.dark-theme .theme-toggle {
   .nav-links{
       overflow: hidden;
   }
-  
+
   .imagesection{
     display: none;
 
@@ -156,13 +156,16 @@ body.dark-theme .theme-toggle {
     margin-top: 8vh;
   }
   .contentsection p {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    
   }
   .contentsection h1,h2{
       font-size: 20px;
   }
   .contentsection h5{
     font-size: 18px;
+    
   }
   .home{
     height: 50vh;
@@ -236,4 +239,19 @@ display: flex;
   align-items: center;
   font-size: 50px;
   margin-top: 50px;
+}
+.allskils{
+  display: grid;
+  justify-content: center;
+  
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  grid-gap: 20px 20px;
+
+}
+.html{
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 15%;
 }
