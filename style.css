@@ -339,3 +339,14 @@ display: flex;
   margin-top: 10px;
   color: black;
 }
+#certificate h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 6vh;
+}
+.certificate{
+  display: grid;
+  
+}
