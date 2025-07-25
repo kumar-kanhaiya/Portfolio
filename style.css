@@ -280,12 +280,14 @@ display: flex;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
   /* border: 2px solid red; */
   transform: translateY(-25px);
+  cursor: pointer;
 }
 .logoos:hover{
   /* box-shadow: 5px 5px black;*/
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
   /* border: 2px solid red; */
   transform: translateY(-25px);
+  cursor: pointer;
 }
 .insidelogo{
   height: 100px;
@@ -560,17 +562,29 @@ display: flex;
   --primary-color : #000106;
   --secondary-color :#fff;
 }
-.autoshow{
-    animation: text-appear both;
+/* .autoshow{
+    animation: appear 3s linear;
     animation-timeline: view();
 }
-@keyframes text-appear{
+@keyframes appear{
   from{
     opacity: 0;
+    transform: scale(1.5);
     transform: translateY(100px);
   }
   to{
     opacity: 1;
+    transform: scale(0);
     transform: translateY(0px);
   }
+} */
+.autoshow {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
