@@ -367,7 +367,7 @@ display: flex;
 }
 .cer{
   height: 200px;
-  width: 260px;
+  width: 200px;
   /* border: 2px solid black; */
   transition: transform 0.5s ease;
 }
@@ -375,9 +375,14 @@ display: flex;
   .certificate{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    max-width: 90vw;
     gap: 15px;
-    margin: 5vh;
-    padding: 15px;
+    margin: 8vh;
+    padding: 5px;
+  }
+  .cer{
+    height: 100%;
+    width: 100%;
   }
 }
 .cer:hover{
